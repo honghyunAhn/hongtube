@@ -1,7 +1,8 @@
 import express from "express";
-import logger from "morgan";
+import morgan from "morgan";
 
 const PORT = 9090;
+const logger = morgan("dev"); 
 
 const app = express();
 
@@ -12,10 +13,10 @@ const login = (req, res) => {
   return res.send("login");
 };
 
-app.use(logger("dev"));
+app.use(logger);
 app.get("/", home);
 app.get("/login", login);
-
+ 
 const handleListening = () => 
     console.log(`✅Server listenting on port http://localhost:${PORT}🚀🚀`);
 
