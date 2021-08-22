@@ -12,7 +12,7 @@ Node.jsを勉強しながら、最近最も多く使用されているウェブ�
 - Web Servers        : node.js
 - Database           : MongoDB
 - Web Developement   : HTML、CSS
-- Operating Systems  : Windows 10
+- Operating Systems  : Windows 10 (WSL)
 - Development period : 2021.8.5~
 <br>
 <br>
