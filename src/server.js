@@ -18,6 +18,6 @@ app.get("/", home);
 app.get("/login", login);
  
 const handleListening = () => 
-    console.log(`✅Server listenting on port http://localhost:${PORT}🚀🚀`);
+    console.log(`✅Server listenting on port http://localhost:${PORT}`);
 
 app.listen(PORT, handleListening);
