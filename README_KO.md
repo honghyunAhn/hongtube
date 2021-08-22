@@ -12,7 +12,7 @@ Node.js를 공부하면서 최근 가장 많이 사용하는 웹사이트인 유
 - Web Servers        : node.js
 - Database           : MongoDB
 - Web Developement   : HTML、CSS
-- Operating Systems  : Windows 10
+- Operating Systems  : Windows 10 (WSL)
 - Development period : 2021.8.5~
 <br>
 <br>
