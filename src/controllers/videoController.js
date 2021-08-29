@@ -1,9 +1,7 @@
-const fakeUser = {
-    username: "anh288",
-    loggedIn: false,
+export const trending = (req, res) => {
+    const videos = [1,2,3,4,5,6,7,8,9,10];
+    return res.render("home", {pageTitle: "Home", videos});
 }
-
-export const trending = (req, res) => res.render("home", {pageTitle: "Home", fakeUser: fakeUser});
 export const see = (req, res) => res.render("watch", {pageTitle: "Watch Video"});
 export const edit = (req, res) => res.render("edit", {pageTitle: "Edit Video"});
 export const search = (req, res) => res.send("Search");
