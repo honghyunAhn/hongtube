@@ -31,7 +31,7 @@ export const watch = (req, res) => {
     const {id} = req.params;
     const video = videos [id - 1];
     return res.render("watch", {pageTitle : `Watching: ${video.title}`, video});
-}
+};
 export const getEdit = (req, res) => {
     const {id} = req.params;
     const video = videos [id - 1];
@@ -42,4 +42,12 @@ export const postEdit = (req, res) => {
     const {title} = req.body;
     const video = videos [id - 1].title = title;
     return res.redirect(`/videos/${id}`);
-}
+};
+
+export const getUpload = (req, res) => {
+    return res.render("upload", {pageTitle: "Upload Video"});
+};
+
+export const postUpload = (req, res) => {
+    return res.redirect("/");
+};
