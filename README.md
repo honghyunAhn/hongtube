@@ -1,9 +1,9 @@
 # hongtube
-유튜브 클론 코딩
+YouTubeクローンコーディング
 <br>
 <br>
 # Motivation
-Node.js를 공부하면서 최근 가장 많이 사용하는 웹사이트인 유튜브를 클론 코딩 하였습니다.
+Node.jsを勉強しながら、最近最も多く使用されているウェブサイトのYouTubeをクローンコーディングしました。
 <br>
 <br>
 # Tech/framework used
